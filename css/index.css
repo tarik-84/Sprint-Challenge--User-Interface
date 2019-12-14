@@ -144,3 +144,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.links nav {
+  display: flex; 
+  direction: rtl;
+    width: 80%; 
+    justify-content: space-around;
+    
+}
+.links {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.links nav a {
+    color: black;
+    text-decoration: none;
+}
+.top-content img{
+    padding: 15px;
+}
