@@ -78,6 +78,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content .about {
+    padding-bottom: 15px;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -240,10 +243,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.column {
-    display: flex;
-    flex-direction: column;
-}
+
 .links nav {
   display: flex; 
   direction: rtl;
@@ -253,7 +253,7 @@ footer nav a {
 }
 .links {
     display: flex;
-    align-items: center;
+    align-items:baseline;
     padding: 20px;
 }
 .links nav a {
@@ -261,12 +261,15 @@ footer nav a {
     text-decoration: none;
 }
 .top-content img{
-    padding: 15px;
+    padding: 15px; 
 }
-.top-content h3{
+.together {
+    padding-bottom: 15px;
+}
+h3 {
     border: solid 1px;
     width: 140px;
-    padding: 2%;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 10px;
+    padding: 15px   
 }
